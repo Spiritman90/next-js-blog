@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
             <a
               href='https://twitter.com/phemmypete'
               target='_blank'
-              rel='norefferer'
+              rel='noreferrer'
             >
               Twitter
             </a>
@@ -36,7 +36,10 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           (This is a sample website - I am learning Next.js{" "}
-          <a href='https://nextjs.org/learn'>using Next.js tutorial</a>.)
+          <a href='https://nextjs.org/learn' rel='noreferrer'>
+            using Next.js tutorial
+          </a>
+          .)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
