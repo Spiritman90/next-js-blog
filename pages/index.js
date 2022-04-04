@@ -25,7 +25,11 @@ export default function Home({ allPostsData }) {
           Hello, I am Femi. I am an aspiring Frontend Developer from Lagos
           Nigeria. You can contact me on{" "}
           <span>
-            <a href='https://twitter.com/phemmypete' target='_blank'>
+            <a
+              href='https://twitter.com/phemmypete'
+              target='_blank'
+              rel='norefferer'
+            >
               Twitter
             </a>
           </span>
